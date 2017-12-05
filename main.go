@@ -14,16 +14,16 @@ import (
 	// "github.com/gsmcwhirter/advent2017/day17"
 	// "github.com/gsmcwhirter/advent2017/day18"
 	// "github.com/gsmcwhirter/advent2017/day19"
-	// "github.com/gsmcwhirter/advent2017/day2"
+	"github.com/gsmcwhirter/advent2017/day2"
 	// "github.com/gsmcwhirter/advent2017/day20"
 	// "github.com/gsmcwhirter/advent2017/day21"
 	// "github.com/gsmcwhirter/advent2017/day22"
 	// "github.com/gsmcwhirter/advent2017/day23"
 	// "github.com/gsmcwhirter/advent2017/day24"
 	// "github.com/gsmcwhirter/advent2017/day25"
-	// "github.com/gsmcwhirter/advent2017/day3"
-	// "github.com/gsmcwhirter/advent2017/day4"
-	// "github.com/gsmcwhirter/advent2017/day5"
+	"github.com/gsmcwhirter/advent2017/day3"
+	"github.com/gsmcwhirter/advent2017/day4"
+	"github.com/gsmcwhirter/advent2017/day5"
 	// "github.com/gsmcwhirter/advent2017/day6"
 	// "github.com/gsmcwhirter/advent2017/day7"
 	// "github.com/gsmcwhirter/advent2017/day8"
@@ -39,23 +39,27 @@ func main() {
 		day1.RunPartA(filename)
 	case "1b":
 		day1.RunPartB(filename)
+	case "2a":
+		day2.RunPartA(filename)
+	case "2b":
+		day2.RunPartB(filename)
+    case "3a":
+		day3.RunPartA(filename)
+  	case "3b":
+		day3.RunPartB(filename)
+	case "4a":
+		day4.RunPartA(filename)
+	case "4b":
+		day4.RunPartB(filename)
+	case "5a":
+		day5.RunPartA(filename)
+	case "5b":
+		day5.RunPartB(filename)
 	}
-	// case "2a":
-	// 	day2.RunPartA(filename)
-	// case "2b":
-	// 	day2.RunPartB(filename)
-	// case "3a":
-	// 	day3.RunPartA(filename)
-	// case "3b":
-	// 	day3.RunPartB(filename)
-	// case "4a":
-	// 	day4.RunPartA(filename)
-	// case "4b":
-	// 	day4.RunPartB(filename)
-	// case "5a":
-	// 	day5.RunPartA(filename)
-	// case "5b":
-	// 	day5.RunPartB(filename)
+
+
+
+
 	// case "6a":
 	// 	day6.RunPartA(filename)
 	// case "6b":

@@ -17,7 +17,6 @@ func ParseDataString(datString string) []int {
 		digInt, _ := strconv.Atoi(string(byt))
 		digits[i] = digInt
 	}
-	fmt.Print("\n")
 
 	return digits
 }
