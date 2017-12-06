@@ -36,6 +36,20 @@ func IntMax(a int, b int) int {
 	return b
 }
 
+func IntMaxList(l []int) (maxI int, max int) {
+	max = l[0]
+	maxI = 0
+
+	for i, val := range l {
+		if val > max {
+			maxI = i
+			max = val
+		}
+	}
+
+	return
+}
+
 func IntMin(a int, b int) int {
 	if a <= b {
 		return a
