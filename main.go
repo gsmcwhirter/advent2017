@@ -5,7 +5,7 @@ import (
 
 	"github.com/gsmcwhirter/advent2017/day1"
 	"github.com/gsmcwhirter/advent2017/day10"
-	// "github.com/gsmcwhirter/advent2017/day11"
+	"github.com/gsmcwhirter/advent2017/day11"
 	// "github.com/gsmcwhirter/advent2017/day12"
 	// "github.com/gsmcwhirter/advent2017/day13"
 	// "github.com/gsmcwhirter/advent2017/day14"
@@ -75,15 +75,16 @@ func main() {
 		day10.RunPartA(filename)
 	case "10b":
 		day10.RunPartB(filename)
+	case "11a":
+		day11.RunPartA(filename)
+	case "11b":
+		day11.RunPartB(filename)
 	}
 
 
 
 
-	// case "11a":
-	// 	day11.RunPartA(filename)
-	// case "11b":
-	// 	day11.RunPartB(filename)
+
 	// case "12a":
 	// 	day12.RunPartA(filename)
 	// case "12b":
